@@ -1,0 +1,18 @@
+button, p{
+    font-size:40px;
+  }
+  #calculator {
+    width:500px;
+    height: 600px;
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr)        
+  }
+  #display{
+    grid-column:1/5;
+    
+    background: lightgrey;
+  }
+  p{height: 100px;
+    background-color: lightgrey;
+  }
